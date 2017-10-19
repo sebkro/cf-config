@@ -6,3 +6,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://sebkro:B8YrQKfab2BQ7mVxHx@eureka-server-unoriental-gavotte.cfapps.io/eureka
+  instance:
+    hostname: ${vcap.application.uris[0]}
+    nonSecurePort: 80
