@@ -1,4 +1,4 @@
 ---
 spring:
   profiles: cloud
-message: Sebastian
+message: Sebastian 2
